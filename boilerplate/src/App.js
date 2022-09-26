@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import { Route, Routes, useParams } from "react-router-dom";
 import AppModel from "./models/App/AppModel.js";
+import "./mediaQueries.scss";
 import './App.css';
 
 const app_model = new AppModel(); 
